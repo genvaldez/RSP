@@ -38,7 +38,6 @@ h2{
 	cursor: hand;
 	cursor: pointer;
 	font-size: 10pt;
-	background-color: silver;
 }
 
 .iconButton img{
@@ -79,9 +78,63 @@ h2{
 	background-color: #0CA619;
 	color: white;
 	
-	display: none;
+	display:none;
 }
 
 #btnGo:hover{
 	background-color: #0CC819;
+}
+#introScreen{
+	position: absolute;
+	z-index:100;
+	width:600px;
+	height:400px;
+	background-color: black;
+}
+#introScreenContent{
+	width:400px;
+	height:200px;
+	padding:20px;
+	background-color: white;
+	margin: 80 auto;
+	text-align: center;
+}
+.button{
+	padding:10px;
+	border-radius: 10px;
+	width:100px;
+	text-align: center;
+	cursor: hand;
+	cursor:pointer;
+	font-size: 14pt;
+	background-color: #888888;
+	color:white;
+	margin:0 auto;
+}
+.button:hover{
+	background-color: #555555;
+	
+}
+#endScreen{
+	position: absolute;
+	z-index:101;
+	width:600px;
+	height:400px;
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+}
+#endScreenContent{
+	width:400px;
+	height:200px;
+	margin: 0 auto;
+	text-align: center;
+}
+#endScreen h1{
+	color:yellow;
+	font-size: 20px;
+	
+}
+#endScreen h2{
+	color:yellow;
+	font-size: 24px;
 }
